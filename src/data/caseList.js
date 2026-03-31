@@ -6,6 +6,8 @@ import jiangxiTelecomDetail1 from "../assets/images/details/jiangxi-telecom-kowl
 import jiangxiTelecomDetail2 from "../assets/images/details/jiangxi-telecom-kowledgecloud_2.png";
 import jiangxiTelecomDetail3 from "../assets/images/details/jiangxi-telecom-kowledgecloud_3.png";
 import gcxnSmtDashboardCover from "../assets/images/cover/gcxn-smt-dashboard.png";
+import ivrCover from "../assets/images/cover/ivr-cover.png";
+import cesiumCover from "../assets/images/cover/cesium-cover.png";
 
 export const caseData = [
   {
@@ -26,7 +28,7 @@ export const caseData = [
       jiangxiTelecomDetail2,
       jiangxiTelecomDetail3,
     ],
-    demo: " https://fzx19980425.github.io/jiangxi-telecom-kowledgecloud/",
+    demo: "https://fzx19980425.github.io/jiangxi-telecom-kowledgecloud/",
   },
   {
     id: 3,
@@ -34,6 +36,22 @@ export const caseData = [
     type: "web",
     cover: gcxnSmtDashboardCover,
     detail: [gcxnSmtDashboardCover],
-    demo: " https://fzx19980425.github.io/vue2-three-gcxn/",
+    demo: "https://fzx19980425.github.io/vue2-three-gcxn/",
+  },
+  {
+    id: 4,
+    title: "国创青鸾客服IVR",
+    type: "web",
+    cover: ivrCover,
+    detail: [ivrCover],
+    demo: "https://fzx19980425.github.io/antv-g6-demo/",
+  },
+  {
+    id: 5,
+    title: "激光网路管理三维地球",
+    type: "web",
+    cover: cesiumCover,
+    detail: [cesiumCover],
+    demo: "https://fzx19980425.github.io/cesium-vue-demo/",
   },
 ];
