@@ -14,7 +14,6 @@
             frameborder="0" 
             width="100%" 
             height="100%"
-            style="border-radius: 8px;"
             @load="iframeLoaded = true"
           ></iframe>
         </div>
@@ -102,7 +101,7 @@ const goBack = () => {
 <style lang="scss" scoped>
 
 .detail-content {
-  border-radius: 12px;
+
   overflow: auto;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
   display: flex;
@@ -128,7 +127,7 @@ const goBack = () => {
     width: 375px;
     height: 667px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    border-radius: 8px;
+    
     overflow: hidden;
     position: relative;
   }
@@ -141,7 +140,7 @@ const goBack = () => {
     min-height: 600px;
     height: 100%;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    border-radius: 8px;
+    
     overflow: hidden;
     position: relative;
   }
@@ -203,7 +202,7 @@ h3 {
   .el-image {
     width: 100%;
     height: 200px;
-    border-radius: 8px;
+    
     cursor: pointer;
     background-color: #f5f5f5;
   }

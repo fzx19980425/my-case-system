@@ -107,7 +107,7 @@ const goToDetail = (id) => {
 }
 .card {
   background: #fff;
-  border-radius: 8px;
+  
   overflow: hidden;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
   transition: 0.3s;
